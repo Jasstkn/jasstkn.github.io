@@ -1,3 +1,4 @@
 baseURL = 'https://jasstkn.github.io/'
 languageCode = 'en-us'
 title = 'DevOops notes'
+theme = "cupper-hugo-theme"
