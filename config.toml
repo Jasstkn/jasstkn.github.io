@@ -2,3 +2,18 @@ baseURL = 'https://jasstkn.github.io/'
 languageCode = 'en-us'
 title = 'DevOops notes'
 theme = "cupper-hugo-theme"
+
+permalinks:
+  post: /:filename/
+
+menu:
+  nav:
+    - name: Home
+      url: /
+      weight: 1
+    - name: Blog
+      url: /post/
+      weight: 2
+    - name: About
+      url: /about/
+      weight: 3
