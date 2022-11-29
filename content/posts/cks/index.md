@@ -1,5 +1,8 @@
 ---
 title: "CKS exam"
+description: "Как подготовиться и сдать CKS - коротко и с ссылками"
+images:
+- cks.jpg
 tags: [kubernetes, cks]
 ---
 
