@@ -14,9 +14,9 @@ menu:
   - name: Blog
     url: /posts/
     weight: 2
-  - name: About
-    url: /about/
-    weight: 3
+  # - name: About
+  #   url: /about/
+  #   weight: 3
 
 params:
   description: DevOops notes. Everything about operations around us.
