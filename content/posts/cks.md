@@ -1,6 +1,5 @@
 ---
 title: "CKS exam"
-date: 2022-11-30T21:00:00
 tags: [kubernetes, cks]
 ---
 
