@@ -1,38 +1,124 @@
 baseURL: "https://jasstkn.github.io/"
-languageCode: "en-us"
-title: "DevOops notes"
+title: "MariaOps"
 theme: "PaperMod"
 
-permalinks:
-  post: /:filename/
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
 
-menu:
-  nav:
-  - name: Home
-    url: /
+minify:
+  disableXML: true
+  minifyOutput: true
+
+languages:
+  en:
+    languageName: "English"
     weight: 1
-  - name: Blog
-    url: /posts/
-    weight: 2
-  # - name: About
-  #   url: /about/
-  #   weight: 3
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Archive
+          url: archives
+          weight: 5
+        - name: Search
+          url: search/
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 10
+  ru:
+    languageName: ":ru:"
+    languageAltName: "Russian"
+    weight: 1
+    taxonomies:
+      category: категории
+      tag: теги
+      series: серии
+    menu:
+      main:
+        - name: Архив
+          url: archives
+          weight: 5
+        - name: Поиск
+          url: search/
+          weight: 10
+        - name: Теги
+          url: tags/
+          weight: 10
 
 params:
-  description: Maria is behind the wheel today
-  homeMetaContent: Maria is behind the wheel today.
-  # TODO: add links
-  # footer: Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed to [Github](https://github.com/).
-  # For more date formats see https://gohugo.io/functions/format/
-  dateFormat: Jan 2, 2006
-  codePenUser: someUser
-  katex: true
-  hideHeaderLinks: false
-  search: true
-  showThemeSwitcher: true
-  defaultDarkTheme: false
-  moveFooterToHeader: false
-  # navTitleText: Cupper Theme
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: MariaOps
+  keywords: [Blog, Kubernetes, DevOps, SRE]
+  author: Me
+  # author: ["Me", "You"] # multiple authors
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: false
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "<link / abs url>"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
+
+  label:
+    text: "Home"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: "I write about SRE, DevOps and Kubernetes."
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/jasstkn"
+    - name: github
+      url: "https://github.com/jasstkn"
+    - name: mastodon
+      url: "https://hachyderm.io/@maria_kot"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
 
 markup:
   defaultMarkdownHandler: goldmark
