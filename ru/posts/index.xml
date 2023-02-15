@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on MariaOps</title>
-    <link>https://jasstkn.github.io/posts/</link>
+    <link>https://jasstkn.github.io/ru/posts/</link>
     <description>Recent content in Posts on MariaOps</description>
     <image>
       <title>MariaOps</title>
@@ -10,14 +10,23 @@
       <link>https://jasstkn.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 15 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jasstkn.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jasstkn.github.io/ru/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fosdem 2023</title>
-      <link>https://jasstkn.github.io/posts/fosdem2023/</link>
+      <link>https://jasstkn.github.io/ru/posts/fosdem2023/</link>
       <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://jasstkn.github.io/posts/fosdem2023/</guid>
+      <guid>https://jasstkn.github.io/ru/posts/fosdem2023/</guid>
       <description>Notes from FOSDEM 2023</description>
+    </item>
+    
+    <item>
+      <title>CKS exam</title>
+      <link>https://jasstkn.github.io/ru/posts/cks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasstkn.github.io/ru/posts/cks/</guid>
+      <description>Как подготовиться и сдать CKS - коротко и с ссылками</description>
     </item>
     
   </channel>
