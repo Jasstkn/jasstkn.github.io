@@ -14,11 +14,13 @@ cover:
 
 ![fosdem logo](fosdem_logo.jpg)
 
-This year has started from the FOSDEM conference in Brussel. I've had only one goal - to boost my technical skills with the newest technologies and technics. I spent the 1st day in **Golang room** and the 2nd in **Monitoring & Observability**. After 2 very intense days I calmly arrived home and started catching up with other rooms. This is how the post appeared. Enjoy! 🌟
+Этот год начался с конференции Fosdem в Брюсселе. Я ехала с основной целью - послушать технические доклады из аудиторий Go и Monitoring & Observability. По итогам решила написать небольшую заметку, которая поможет посмотреть самые удачные на мой взгляд доклады из этих секций (и парочки других).
 
-> 👀 - watch
->
-> 📚 - read
+Легенда:
+
+👀 - смотреть
+
+📚 - читать
 
 ## Go room
 

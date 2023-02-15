@@ -5,3 +5,7 @@ tasks:
     cmds:
       - hugo server -D
     silent: false
+
+  upd_theme:
+    cmds:
+      - git submodule update --remote --merge
