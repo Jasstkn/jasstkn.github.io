@@ -26,7 +26,7 @@ cover:
 
 [👀 The State of Go](https://fosdem.org/2023/schedule/event/gostateofgo/)
 
-- more convenient way to convert slice to array
+- a more convenient way to convert a slice to an array
 - improvements to generics - comparison
 - toolchain improvements - introduced new commands, improved go vet
 - changes in the standard library - error(multiple errors wrapping), time, bytes & strings
@@ -80,20 +80,20 @@ cover:
 [👀 Five Steps to Make Your Go Code Faster & More Efficient](https://fosdem.org/2023/schedule/event/gofivestepsefficient/)
 
 - Use Test Fix Benchmark Optimize
-- Understand current efficiency level (micro benchmarks)
+- Understand current efficiency level (micro-benchmarks)
 - Understand your efficiency requirements
 - Do profiling
-- Try optimize and repeat
+- Try to optimize and repeat
 
 [👀 Our Mad Journey of Building a Vector Database in Go](https://fosdem.org/2023/schedule/event/gobuildingdatabase/)
 
-- memory allocations are important for high performance applications
+- memory allocations are important for high-performance applications
   - binary.Read() isn't optimal
-  - **stack** is short-lived, fast and chip, heap is long-lived, **expensive** and slower
-  - `binary.LittleEndian.Uint32` allows to read without memory allocations
+  - **stack** is short-lived, fast, and chip, heap is long-lived, **expensive** and slower
+  - `binary.LittleEndian.Uint32` allows reading without memory allocations
 - delayed decoding
   - json is too slow
-  - binary encoding is fast, but decoding everything up-fron is still expensive
+  - binary encoding is fast, but decoding everything up-front is still expensive
   - replace allocation with summing up
   - in Go 1.20 experimental support for memory arena that potentially can be used to bypass the GC
 - SIMD (single instruction, multiple data)
@@ -103,8 +103,8 @@ cover:
 
 [👀 Building a basic event-driven application in Go in 20 minutes. Introduction to Watermill](https://fosdem.org/2023/schedule/event/gowatermill/)
 
-- watermill allows to simplify writing event-driven apps
-- provides easy way to test things
+- watermill allows simplifying writing event-driven apps
+- provides an easy way to test things
 - https://threedots.tech/fosdem2023/
 
 ## Monitoring & Observability
@@ -116,18 +116,18 @@ cover:
 [👀 Observability in Postgres](https://fosdem.org/2023/schedule/event/postgres/)
 
 - a lot of useful data in the internal DBs
-- there is a prometheus-exporter with support of custom queries
+- there is a prometheus-exporter with support for custom queries
 - it has issues e.g. performance, no metrics if running out of max_connections, ...
-- can be improved by Postgres itself by introducing support of monitoring via port. 
+- can be improved by Postgres itself by introducing support for monitoring via a port. 
 
 [👀 Loki: Logging, but make it cloud native](https://fosdem.org/2023/schedule/event/loki/)
 
 [👀 Adopting continuous-profiling](https://fosdem.org/2023/schedule/event/profiling/)
 
-- interesting approach to have an observability to debug high performance applications
+- interesting approach to have observability to debug high-performance applications
 - [Phlare](https://grafana.com/oss/phlare/) is a Grafana open-source solution (other: pixie, parca, pyroscope)
 
-[👀 Inspektor Gadget: An eBPF Based Tool to Observe Containers](https://fosdem.org/2023/schedule/event/ebpf/)
+[👀 Inspektor Gadget: An eBPF-based Tool to Observe Containers](https://fosdem.org/2023/schedule/event/ebpf/)
 
 - cool tool for debugging via eBPF
 - supports local and Kubernetes installation
