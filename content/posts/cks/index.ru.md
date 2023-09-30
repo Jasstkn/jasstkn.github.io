@@ -2,6 +2,7 @@
 author: "Maria Kot"
 title: "CKS exam"
 description: "Как подготовиться и сдать CKS - коротко и с ссылками"
+date: "2023-02-15T00:00:00+03:00"
 tags: [kubernetes, cks]
 cover:
     image: "cks.jpg"

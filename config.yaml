@@ -1,6 +1,7 @@
 baseURL: "https://jasstkn.github.io/"
 title: "MariaOps"
 theme: "PaperMod"
+defaultContentLanguage: "en"
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -31,8 +32,9 @@ languages:
           url: tags/
           weight: 10
   ru:
+    params:
+      languageAltName: "Russian"
     languageName: ":ru:"
-    languageAltName: "Russian"
     weight: 1
     taxonomies:
       category: категории
