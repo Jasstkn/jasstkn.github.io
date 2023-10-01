@@ -10,7 +10,26 @@
       <link>https://jasstkn.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 15 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jasstkn.github.io/ru/index.xml" rel="self" type="application/rss+xml" />
+    <language>ru</language>
+    <lastBuildDate>Sat, 30 Sep 2023 00:00:00 +0300</lastBuildDate><atom:link href="https://jasstkn.github.io/ru/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Собеседуемся в 2023 году</title>
+      <link>https://jasstkn.github.io/ru/posts/interview2023/</link>
+      <pubDate>Sat, 30 Sep 2023 00:00:00 +0300</pubDate>
+      
+      <guid>https://jasstkn.github.io/ru/posts/interview2023/</guid>
+      <description>Мой опыт собеседований в 2023 году и ресурсы, которые помогли мне подготовиться</description>
+    </item>
+    
+    <item>
+      <title>CKS exam</title>
+      <link>https://jasstkn.github.io/ru/posts/cks/</link>
+      <pubDate>Wed, 15 Feb 2023 00:00:00 +0300</pubDate>
+      
+      <guid>https://jasstkn.github.io/ru/posts/cks/</guid>
+      <description>Как подготовиться и сдать CKS - коротко и с ссылками</description>
+    </item>
+    
     <item>
       <title>Fosdem 2023</title>
       <link>https://jasstkn.github.io/ru/posts/fosdem2023/</link>
@@ -18,15 +37,6 @@
       
       <guid>https://jasstkn.github.io/ru/posts/fosdem2023/</guid>
       <description>Notes from FOSDEM 2023</description>
-    </item>
-    
-    <item>
-      <title>CKS exam</title>
-      <link>https://jasstkn.github.io/ru/posts/cks/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jasstkn.github.io/ru/posts/cks/</guid>
-      <description>Как подготовиться и сдать CKS - коротко и с ссылками</description>
     </item>
     
   </channel>
