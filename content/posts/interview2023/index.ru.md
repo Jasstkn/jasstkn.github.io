@@ -6,11 +6,7 @@ date: "2023-09-30T00:00:00+03:00"
 
 ShowToc: true
 tags: [interview, career]
-cover:
-    image: "cover.jpg"
-    alt: "cover"
-    caption: "interview"
-    relative: true
+images: [cover.jpg]
 ---
 ![cover](cover.jpg)
 
