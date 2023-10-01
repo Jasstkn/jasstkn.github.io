@@ -20,17 +20,6 @@ languages:
       category: categories
       tag: tags
       series: series
-    menu:
-      main:
-        - name: Archive
-          url: archives
-          weight: 5
-        - name: Search
-          url: search/
-          weight: 10
-        - name: Tags
-          url: tags/
-          weight: 10
   ru:
     params:
       languageAltName: "Russian"
@@ -40,17 +29,6 @@ languages:
       category: категории
       tag: теги
       series: серии
-    menu:
-      main:
-        - name: Архив
-          url: archives
-          weight: 5
-        - name: Поиск
-          url: search/
-          weight: 10
-        - name: Теги
-          url: tags/
-          weight: 10
 
 googleAnalytics: "G-5EYHJPYYSX"
 
