@@ -52,6 +52,8 @@ languages:
           url: tags/
           weight: 10
 
+googleAnalytics: "G-5EYHJPYYSX"
+
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: MariaOps
