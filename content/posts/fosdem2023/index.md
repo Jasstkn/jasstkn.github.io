@@ -43,7 +43,7 @@ This year has started with the FOSDEM conference in Brussels. I've had only one 
 - Dagger has few SDKs available: Go, Python, etc.
 - Makefile for Go - [mage](https://github.com/magefile/mage)
 - write pipelines with Go, use all benefits of the language
-- supported container runtime - docker 🙄 
+- supported container runtime - docker 🙄
 
 [📚 Debugging concurrency programs in Go](https://fosdem.org/2023/schedule/event/godebugconcurrency/)
 
@@ -103,7 +103,7 @@ This year has started with the FOSDEM conference in Brussels. I've had only one 
 
 - watermill allows simplifying writing event-driven apps
 - provides an easy way to test things
-- https://threedots.tech/fosdem2023/
+- <https://threedots.tech/fosdem2023/>
 
 ## Monitoring & Observability
 
@@ -116,7 +116,7 @@ This year has started with the FOSDEM conference in Brussels. I've had only one 
 - a lot of useful data in the internal DBs
 - there is a prometheus-exporter with support for custom queries
 - it has issues e.g. performance, no metrics if running out of max_connections, ...
-- can be improved by Postgres itself by introducing support for monitoring via a port. 
+- can be improved by Postgres itself by introducing support for monitoring via a port.
 
 [👀 Loki: Logging, but make it cloud native](https://fosdem.org/2023/schedule/event/loki/)
 
