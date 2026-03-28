@@ -1,17 +1,18 @@
 ---
-author: "Maria Kot"
+author: "Mariia Kotliarevskaia"
 title: "AI и Copilot CLI #1"
 date: "2026-03-28"
 description: "Ресерч об AI инструментах, скиллах и агентах для эффективной разработки с Github Copilot CLI"
 tags: [ai, tools, productivity]
-ShowToc: true
 cover:
-    image: "/images/ai-copilot-cli-1.png"
+    image: "images/ai-copilot-cli-1.png"
     alt: "GitHub Copilot"
-    relative: false
+    hidden: false
+    hiddenInSingle: false
+    hiddenInList: false
 ---
 
-За все время только прошедшего кубкона я не была ни на одном докладе по AI.
+За весь только что прошедший кубкон я не была ни на одном докладе по AI.
 Но тема автоматизации процессов разработки и повышения эффективности работы с AI остается для меня одной из самых актуальных.
 
 Нужно принять несколько фактов:
@@ -21,7 +22,7 @@ cover:
 
 Я поспрашивала знакомых об опыте и несмотря на в основном позитивный фидбек, все еще остается большая проблема с написанием качественного кода, который легко поддерживать, тестировать и читать.
 
-Поидее, эту проблему должны были решить и инструменты предыдущего поколения (в моем случае это в основном экстеншны для VSCode по типу Cline/Roo Code), но они использовали свой собственный формат.
+По идее, эту проблему должны были решить и инструменты предыдущего поколения (в моем случае это в основном экстеншны для VSCode по типу Cline/Roo Code), но они использовали свой собственный формат.
 Теперь этот формат нужно переписывать и конечно делать это каждые несколько месяцев совсем не хочется.
 
 Здесь и начался мой ресерч о том, как вообще писать skills, agents и в целом эффективнее работать с Github Copilot CLI.
@@ -30,13 +31,13 @@ cover:
 
 - [Spec-Driven Development: AI Assisted Coding Explained](https://youtu.be/mViFYTwWvcM?si=UhikYomkFDqBIGF8)
 
-  Понравилось, что в видео подробно объясняют разницы между spec driven development и vibe coding.
+  Понравилось, что в видео подробно объясняют разницу между spec driven development и vibe coding.
 
 - [The 6 Levels of Claude Code Explained](https://youtu.be/TUKYbUIXLOE?si=0u7g_BXOvGcLWLwW)
 
   Подробное видео о разных уровнях 'продвинутости' в использовании AI.
 
-- Несколько видео с канала Берка Холланда (очень крутое качество контента по уровню практичности и отсутствию воды)
+- Несколько видео с канала [Берка Холланда](https://www.youtube.com/@BurkeHolland) (очень крутое качество контента по уровню практичности и отсутствию воды)
 
   - [You can build your own personal AI assistant - it's super easy](https://youtu.be/PEtM45hG-5A?si=76LBPMXibUMQvj78)
 
@@ -50,7 +51,7 @@ cover:
 
 - [Github CLI best practices](https://docs.github.com/en/copilot/how-tos/copilot-cli/cli-best-practices)
 
-  Отличная статья если вы собираетесь внедрять Github Copilot CLI в свою разработку или разработку команды/проекта.
+  Отличная статья, если вы собираетесь внедрять Github Copilot CLI в свою разработку или разработку команды/проекта.
 
 - [Скилл от JetBrains для написания современного Go кода](https://github.com/JetBrains/go-modern-guidelines/tree/main)
 
@@ -58,4 +59,4 @@ cover:
 
 - [Practical Guide to Evaluating and Testing Agent Skills](https://www.philschmid.de/testing-skills)
 
-  Гайд по тестированию скиллов для агента. Пригодится, если команда пишет много скиллов и использует их для работы с sensitive информацией/безопасность/продакшн окружениями.
+  Гайд по тестированию скиллов для агента. Пригодится, если команда пишет много скиллов и использует их для работы с sensitive информацией, безопасностью или продакшн-окружениями.
