@@ -36,13 +36,14 @@ This is how I actually started my research on how to write skills, compose agent
   A detailed video about different levels of 'sophistication' in using AI.
 
 - A few videos from [Burke Holland's channel](https://www.youtube.com/@BurkeHolland) (very high quality content in terms of practicality and lack of fluff)
-    - [You can build your own personal AI assistant - it's super easy](https://youtu.be/PEtM45hG-5A?si=76LBPMXibUMQvj78)
-    
-        A practical video on using Github Copilot SDK + Telegram Bot for building various automations, e.g. an AI assistant.
-    
-    - [You need to try the GitHub Copilot CLI right now](https://youtu.be/CqcqWLv-sDM?si=W9Ecz-HBQnyXyo1d)
-    
-        Very detailed description of all the main features and how to set up VSCode for effective work. I plan to steal almost everything for myself.
+
+  - [You can build your own personal AI assistant - it's super easy](https://youtu.be/PEtM45hG-5A?si=76LBPMXibUMQvj78)
+
+    A practical video on using Github Copilot SDK + Telegram Bot for building various automations, e.g. an AI assistant.
+
+  - [You need to try the GitHub Copilot CLI right now](https://youtu.be/CqcqWLv-sDM?si=W9Ecz-HBQnyXyo1d)
+
+    Very detailed description of all the main features and how to set up VSCode for effective work. I plan to steal almost everything for myself.
 
 ## Articles
 
