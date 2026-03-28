@@ -6,10 +6,10 @@ Personal blog about SRE, DevOps, and Kubernetes. Built with Hugo (extended) and 
 
 **Every change follows this flow — no exceptions:**
 
-1. **New branch from `main`**
+1. **Create a worktree** (preferred over switching branches — see [Git Worktrees](#git-worktrees) below)
    ```sh
-   git checkout main && git pull
-   git checkout -b <type>/<description>
+   git -C <main-repo> worktree add -b <type>/<slug> ../<repo-name>-<slug>
+   cd ../<repo-name>-<slug>
    ```
 2. **Make changes**
 3. **Validate locally before committing:**
@@ -17,9 +17,59 @@ Personal blog about SRE, DevOps, and Kubernetes. Built with Hugo (extended) and 
    npx markdownlint-cli2 "content/**/*.md"   # must return 0 errors
    make dev                                   # verify site builds and renders
    ```
+
+   If you run `make dev` and wait for user validation, print the local URL so the user can open it in the browser.
+
    For CI-only changes (no content modified), `hugo --gc --minify` is sufficient instead of `make dev`.
 4. **Conventional commits** (see format below)
 5. **Push and open PR** — CI runs lint + build automatically
+
+## Git Worktrees
+
+Use worktrees to keep `main` always clean and work on multiple branches in parallel without switching.
+
+### Create a worktree
+
+```sh
+# From the main repo directory:
+git worktree add -b <type>/<slug> ../<repo-name>-<slug>
+cd ../<repo-name>-<slug>
+```
+
+**Naming convention:** `../<repo-name>-<slug>` — a sibling directory, kebab-case slug matching the branch name.
+
+Examples:
+
+```sh
+git worktree add -b post/k8s-tips ../jasstkn.github.io-k8s-tips
+git worktree add -b chore/update-deps-2026-04 ../jasstkn.github.io-update-deps
+```
+
+### Work inside the worktree
+
+Each worktree is a fully independent working directory — run all commands from inside it:
+
+```sh
+cd ../jasstkn.github.io-k8s-tips
+make dev       # local dev server scoped to this branch
+git add .
+git commit -m "feat: ..."
+git push -u origin post/k8s-tips
+```
+
+### List active worktrees
+
+```sh
+git worktree list
+```
+
+### Clean up after merge
+
+```sh
+# From the main repo:
+git worktree remove ../jasstkn.github.io-<slug>
+git branch -d <type>/<slug>
+```
 
 ## Branch Naming
 

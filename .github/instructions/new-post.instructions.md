@@ -10,11 +10,12 @@ When asked to create a new post, follow these steps exactly:
 
 1. **Derive the slug** — kebab-case from the title (e.g., "K8s Observability 2024" → `k8s-observability-2024`)
 
-2. **Create branch from `main`**
+2. **Create a worktree** (preferred) or branch from `main`
 
    ```sh
-   git checkout main && git pull
-   git checkout -b post/<slug>
+   # From the main repo directory:
+   git worktree add -b post/<slug> ../jasstkn.github.io-<slug>
+   cd ../jasstkn.github.io-<slug>
    ```
 
 3. **Create post directory**

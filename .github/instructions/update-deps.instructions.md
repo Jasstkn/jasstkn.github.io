@@ -8,11 +8,11 @@ When asked to update dependencies, follow these steps:
 
 ## Steps
 
-1. **Create branch**
+1. **Create a worktree**
 
    ```sh
-   git checkout main && git pull
-   git checkout -b chore/update-deps-$(date +%Y-%m)
+   git worktree add -b chore/update-deps-$(date +%Y-%m) ../jasstkn.github.io-update-deps-$(date +%Y-%m)
+   cd ../jasstkn.github.io-update-deps-$(date +%Y-%m)
    ```
 
 2. **Update PaperMod theme submodule**
