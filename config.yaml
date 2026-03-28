@@ -28,6 +28,7 @@ languages:
   ru:
     params:
       languageAltName: "Russian"
+      DateFormat: "2 January 2006"
     languageName: ":ru:"
     weight: 1
     taxonomies:
