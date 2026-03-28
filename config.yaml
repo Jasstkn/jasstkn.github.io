@@ -129,13 +129,12 @@ markup:
       unsafe: true
       xHTML: false
   highlight:
-    codeFences: false
+    codeFences: true
     hl_Lines: ""
     lineNoStart: 1
     lineNos: false
     lineNumbersInTable: true
-    noClasses: true
-    style: monokai
+    noClasses: false
     tabWidth: 4
   tableOfContents:
     endLevel: 6
