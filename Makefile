@@ -1,7 +1,7 @@
-.PHONY: dev upd_theme
+.PHONY: dev deps
 
 dev:
 	hugo server -D
 
-upd_theme:
+deps:
 	git submodule update --remote --merge
