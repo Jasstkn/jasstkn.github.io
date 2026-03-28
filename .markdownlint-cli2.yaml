@@ -1,0 +1,11 @@
+# markdownlint-cli2 configuration
+# https://github.com/DavidAnson/markdownlint-cli2#configuration
+
+config:
+  # Allow line length to be flexible for blog content
+  MD013: false
+  # Allow inline HTML (used in Hugo shortcodes and templates)
+  MD033: false
+  # Allow duplicate headings in different sections
+  MD024:
+    siblings_only: true
