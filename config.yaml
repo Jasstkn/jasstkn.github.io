@@ -68,13 +68,7 @@ params:
   tocopen: false
 
   assets:
-    # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
 
   label:
     text: "Home"
@@ -87,8 +81,8 @@ params:
     Content: "I write about SRE, DevOps and Kubernetes."
 
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/jasstkn"
+    - name: x
+      url: "https://x.com/jasstkn"
     - name: github
       url: "https://github.com/jasstkn"
     - name: mastodon
