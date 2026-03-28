@@ -6,9 +6,9 @@ date: "2023-09-30T00:00:00+03:00"
 
 ShowToc: true
 tags: [interview, career]
-images: [cover.jpg]
+images: [/images/interview2023-cover.jpg]
 ---
-![cover](cover.jpg)
+![cover](/images/interview2023-cover.jpg)
 
 Этим летом я приняла решение сменить работу. Поэтому в этом посте я расскажу о своем опыте и поделюсь ресурсами, которые помогли мне подготовиться к собеседованиям и получить оффер.
 
@@ -29,9 +29,9 @@ images: [cover.jpg]
 - сделала резюме в Google Docs и обновила профиль на LinkedIn. Резюме в Google Docs можно легко конвертировать в разные форматы по запросу HR.
 - включила LinkedIn Premium(первый месяц бесплатно)
 - подготовила трелло доску, где буду отслеживать процесс интервью
-![Trello доска с колонками для разных этапов](trello_1.png)
+![Trello доска с колонками для разных этапов](/images/interview2023-trello-1.png)
 - как только я находила интересующую меня вакансию, я добавляла ее в трелло доску. В карточке я обязательно добавляла имя компании, ссылку на позицию и теги, например - `devops`, `sre`, `senior`, `remote only`  и тд.
-<img src="trello_2.png" alt="Заполненная карточка с позицией" width="500">
+<img src="/images/interview2023-trello-2.png" alt="Заполненная карточка с позицией" width="500">
 
 ## Скрининг с HR
 
@@ -44,7 +44,7 @@ images: [cover.jpg]
 ### До
 
 - гуглим компанию, читаем отзывы на Glassdoor, смотрим LinkedIn компании (вдруг у нас там есть знакомые) + можно посмотреть как менялся headcount в последнее время
-![LinkedIn company insights](linkedin.png)
+![LinkedIn company insights](/images/interview2023-linkedin.png)
 - смотрим описание позиции, отмечаем вопросы, которые хотим задать
 
 ### Во время
