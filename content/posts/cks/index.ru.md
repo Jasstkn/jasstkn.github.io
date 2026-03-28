@@ -5,13 +5,13 @@ description: "Как подготовиться и сдать CKS - коротк
 date: "2023-02-15T00:00:00+03:00"
 tags: [kubernetes, cks]
 cover:
-    image: "cks.jpg"
+    image: "/images/cks.jpg"
     alt: "cks"
     caption: "CKS"
-    relative: true
+    relative: false
 ---
 
-![cks](cks.jpg)
+![cks](/images/cks.jpg)
 
 По горячим следам решила написать заметку по сдаче CKS в 2022 году. В большинстве своем будет также актуально и для CKA/CKAD.
 
