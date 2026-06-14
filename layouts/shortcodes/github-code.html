@@ -1,0 +1,27 @@
+{{- $url := .Get "url" -}}
+{{- $lang := .Get "lang" | default "text" -}}
+{{- $lines := .Get "lines" | default "" -}}
+
+{{- $rawUrl := replace $url "github.com" "raw.githubusercontent.com" -}}
+{{- $rawUrl = replace $rawUrl "/blob/" "/" -}}
+
+{{- with resources.GetRemote $rawUrl -}}
+  {{- $content := .Content -}}
+  {{- $opts := "" -}}
+
+  {{- if $lines -}}
+    {{- $parts := split $lines "-" -}}
+    {{- $start := int (index $parts 0) -}}
+    {{- $end := int (index $parts 1) -}}
+    {{- $allLines := split $content "\n" -}}
+    {{- $content = delimit (first (add (sub $end $start) 1) (after (sub $start 1) $allLines)) "\n" -}}
+    {{- $opts = printf "lineNos=true,lineNoStart=%d" $start -}}
+  {{- end -}}
+
+  {{ highlight $content $lang $opts }}
+  <p style="text-align: right; font-size: 0.85em;">
+    <a href="{{ $url }}" target="_blank" rel="noopener">source on GitHub ↗</a>
+  </p>
+{{- else -}}
+  {{- errorf "github-code: failed to fetch %s" $url -}}
+{{- end -}}
