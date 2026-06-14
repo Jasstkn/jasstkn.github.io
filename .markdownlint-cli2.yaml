@@ -6,6 +6,8 @@ config:
   MD013: false
   # Allow inline HTML (used in Hugo shortcodes and templates)
   MD033: false
+  # Allow bare URLs in Hugo shortcode parameters (e.g. github-code url="...")
+  MD034: false
   # Allow duplicate headings in different sections
   MD024:
     siblings_only: true
