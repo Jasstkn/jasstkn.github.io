@@ -2,7 +2,7 @@
 author: "Mariia Kotliarevskaia"
 title: "The Chain Reaction: How a Missing iptables Rule Broke Azure NPM"
 date: 2026-04-15T17:27:00+00:00
-draft: true
+draft: false
 description: "The journey of finding one small feature that was always working until it wasn't"
 cover:
   image: images/fowl_play.png

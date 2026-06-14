@@ -2,7 +2,7 @@
 author: "Mariia Kotliarevskaia"
 title: "Цепная реакция: как пропавшие iptables правила сломали Azure NPM"
 date: 2026-04-15T17:27:00+00:00
-draft: true
+draft: false
 description: "Приключение по поиску одной маленькой функциональности, которая всегда работала, ровно до того момента, как перестала работать и все сломалось."
 cover:
   image: images/fowl_play.png
